@@ -20,9 +20,9 @@ public class Find_the_Maximum_Element_in_an_Array {
             array[i] = input.nextInt();
         }
         int max = array[0];
-        for (int i = 0; i <array.length; i++) {
-            if(array[i]> max){
-                max = array[i];
+        for (int j : array) {
+            if (j > max) {
+                max = j;
             }
         }
         System.out.println("Maximum element number in Array is : "+ max);
