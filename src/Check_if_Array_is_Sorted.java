@@ -40,7 +40,7 @@ public class Check_if_Array_is_Sorted {
                 break;
             }
         }
-        if(sorted ==true) {
+        if(sorted) {
             System.out.println("Array is sorted ");
         }else {
             System.out.println("Array is not sorted");

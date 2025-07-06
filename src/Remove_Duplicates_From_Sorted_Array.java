@@ -9,7 +9,7 @@ public class Remove_Duplicates_From_Sorted_Array {
         int[] array = new int[n];
         ArrayInput(array,input);
         ArrayOutput (array);
-        Arrays.sort(array); // Add this line before RemoveDuplicates
+        Arrays.sort(array);
         int newLength = RemoveDuplicates(array);
         System.out.print("\nSorted array after removing duplicates: ");
 
